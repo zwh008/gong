@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WiFi密码查看器</string>
+    <string name="load_wifi_info">加载WiFi信息</string>
+    <string name="copy">复制</string>
+    <string name="password_label">密码: </string>
+    <string name="no_wifi_data">没有找到WiFi数据</string>
+    <string name="copy_success">密码已复制到剪贴板</string>
+    <string name="location_permission_needed">需要位置权限来获取WiFi信息</string>
+    <string name="storage_permission_needed">需要存储权限来读取WiFi配置文件</string>
+</resources>
