@@ -1,0 +1,27 @@
+WiFi密码查看器
+这是一个Android应用，用于查看设备连接过的WiFi名称和密码。请注意，由于Android系统的安全限制，在较新版本的Android系统中，直接获取WiFi密码变得越来越困难。
+
+功能特点
+显示已连接过的WiFi名称和密码
+支持复制WiFi密码到剪贴板
+简洁的用户界面
+使用说明
+安装并打开应用
+授予必要的位置权限（应用需要位置权限来扫描WiFi网络）
+点击"加载WiFi信息"按钮
+查看WiFi列表，点击"复制"按钮可复制密码
+重要提示
+Android系统版本限制
+Android 10及以上：由于Google的安全限制，普通应用无法直接获取已保存的WiFi密码。应用会显示模拟数据用于演示。
+Android 9及以下：应用可以尝试通过反射机制获取已保存的WiFi密码，但这在某些设备上可能不工作。
+Root权限：如果设备已root，应用可以尝试从系统文件读取WiFi配置，但这也取决于系统版本和制造商定制。
+权限说明
+ACCESS_FINE_LOCATION 和 ACCESS_COARSE_LOCATION：用于扫描附近的WiFi网络
+ACCESS_WIFI_STATE：用于获取WiFi状态信息
+开发说明
+该项目使用Android Studio构建，最低支持Android 5.0（API 21），目标SDK为Android 13（API 33）。
+
+注意事项
+此应用仅用于个人设备上查看已连接过的WiFi信息，请勿用于非法用途
+由于Android系统的安全限制，应用可能无法在所有设备上正常获取WiFi密码
+在较新的Android系统上，应用将显示示例数据，实际使用时需要根据您的设备情况进行调整
